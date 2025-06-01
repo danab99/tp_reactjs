@@ -1,0 +1,23 @@
+main {
+  background-color: #f8bbd0;
+  min-height: 80vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a148c;
+  display: flex;
+  justify-content: center;
+}
+
+section#productos {
+  max-width: 1100px;
+  width: 100%;
+}
+
+section#productos > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+  text-align: center;
+  font-weight: 700;
+  color: #880e4f;
+}

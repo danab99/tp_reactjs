@@ -1,0 +1,134 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("https://pbs.twimg.com/media/GlM5tAEawAAKjrG?format=jpg&name=large");
+  background-size: cover;
+  background-position: center 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 98, 146, 0.6);
+  /* rosa con opacidad */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.header-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #fce4ec;
+}
+
+.header-button {
+  background-color: white;
+  color: #ba68c8;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-button:hover {
+  background-color: #f8bbd0;
+  color: #880e4f;
+}
+
+
+.header-contacto {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("https://pbs.twimg.com/media/GjsApXlacAEOybq?format=jpg&name=large");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-contacto-content {
+  text-align: center;
+  color: #fff;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.header-contacto-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ff4d4d;
+}
+
+.header-contacto-subtitle {
+  font-size: 1.2rem;
+  color: #ffe6e6;
+}
+
+.header-acerca {
+  position: relative;
+  width: 100%;
+  height: 280px;
+  background-image: url("https://pbs.twimg.com/media/GfalXAGacAAtVLD?format=jpg&name=4096x4096");
+  background-size: cover;
+  background-position: center 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-acerca {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-acerca-content {
+  text-align: center;
+  color: #fff;
+  max-width: 700px;
+  padding: 1rem;
+}
+
+.header-acerca-title {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  color: #f8e1f4;
+}
+
+.header-acerca-subtitle {
+  font-size: 1.1rem;
+  color: #f3d1f0;
+}

@@ -1,0 +1,23 @@
+.about-section {
+  padding: 3rem 1.5rem;
+  background-color: #fff0f6;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 1rem;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: #4a148c;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}

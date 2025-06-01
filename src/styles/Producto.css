@@ -1,0 +1,24 @@
+/* CONTENEDOR PRINCIPAL */
+.productos-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* LISTADO DE PRODUCTOS */
+.productos-lista {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+
+
